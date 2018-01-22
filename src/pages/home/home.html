@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+  <button ion-button secondary (click)=getLocation()>Get Location</button><br>
+  {{lat}} <br>{{lang}}
+  <button ion-button secondary (click)=touch()>Touch ID</button><br>
+</ion-content>

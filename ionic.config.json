@@ -1,0 +1,8 @@
+{
+  "name": "Sharath Plugins",
+  "app_id": "79d25f66",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
